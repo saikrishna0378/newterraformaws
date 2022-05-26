@@ -9,5 +9,6 @@ terraform {
     bucket = "terraformb17state"
     key    = "devopsb1.tfstate"
     region = "us-east-1"
+    dynamodb_table = "terraform-up-and-running-locks"
   }
 }
