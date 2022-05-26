@@ -2,8 +2,8 @@ resource "aws_vpc" "default" {
     cidr_block = "${var.vpc_cidr}"
     enable_dns_hostnames = true
     tags = {
-        Name = "${var.vpc_name}"
-	Owner = "Saikrishna"
+    Name = "${var.vpc_name}"
+	Owner = "krishna"
 	environment = "${var.environment}"
     }
 }
